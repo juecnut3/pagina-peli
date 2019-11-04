@@ -1,0 +1,73 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-column-gap: 10px;
+    background-color: white;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: -1% auto auto auto ;
+
+}
+.header {
+    width: 100%;
+    grid-column: 1/4;
+    height: 486px;
+    background-image: url('../img/jw3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.header  h1{ 
+    margin-top:400px;
+    margin-left: 30px;
+    color: white;
+}
+
+.menu{
+    overflow: hidden;
+    grid-column:1/4;
+    background-color:black;
+}
+.menu li{
+    align-items: center;
+    float: left;
+    display: block;
+    color: snow;
+    text-align: center;
+    padding: 0px 20px 20px 0px;
+    text-decoration: none;
+}
+.sinopsis{
+    background-color: chartreuse
+    ;
+}
+.medio{
+    grid-column: 1/4;
+    padding: 0px 50px 0px 50px;
+}
+
+.medio h3{
+    margin-left: -10px;
+    text-align: center;
+}
+.medio h4{
+    margin-left: -300px;
+    text-align: center;
+}
+
+.medio p{
+    margin-left: -10px;
+    text-align: center;
+}
+footer{
+    grid-column: 1/4;
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+body{
+    
+}
+h4{
+    color: yellowgreen;
+}
